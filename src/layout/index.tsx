@@ -1,21 +1,16 @@
 // import * as React from "react"
-import React, { ReactNode } from "react";
+import React from "react";
 import { Helmet } from "react-helmet";
-import { MDXProvider } from "@mdx-js/react";
 import { Link } from "gatsby";
 import { SITE_TITLE } from "@/config/site";
+import { WrapperProps } from "@/my-types/props";
+import { ILinkPayload } from "@/my-types/util-types";
 
-const LINKS = [];
-
-interface WrapperProps {
-  children: ReactNode;
-}
-
-const shortcodes = {};
+const LINKS: ILinkPayload[] = [["A", "/a"]];
 
 const Layout = ({ children }: WrapperProps) => {
   return (
-    <MDXProvider components={shortcodes}>
+    <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{SITE_TITLE}</title>
@@ -35,11 +30,9 @@ const Layout = ({ children }: WrapperProps) => {
             ))}
           </ul>
         </nav>
-        <main className="page-content">
-          <div className="container">{children}</div>
-        </main>
+        <main className="page-content">{children}</main>
       </div>
-    </MDXProvider>
+    </>
   );
 };
 
