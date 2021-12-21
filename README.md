@@ -1,5 +1,3 @@
-# A Fate Zero Page
+# Gatsby PewPewPew Starter
 
-This is a page... where I post whatever I want that relates to Fate/Zero. It's really a site, but I'd like to call it a page.
-
-Everything is intended to come under fair use, but if pointed otherwise I will make necessary changes
+Don't mind the funny name, it's a starter for a certain workflow that I find comfortable.

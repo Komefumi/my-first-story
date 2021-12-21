@@ -1,11 +1,11 @@
 const path = require("path");
 
 module.exports = {
-  pathPrefix: "/a-fate-zero-page",
+  pathPrefix: "/gatsby-pewpewpew-starter",
   siteMetadata: {
     siteUrl:
-    "https://komefumi.github.io/a-fate-zero-page",
-    title: "A Fate/Zero Page",
+    "https://komefumi.github.io/gatsby-pewpewpew-starter",
+    title: "PewPewPew Starter",
   },
   plugins: [
     {

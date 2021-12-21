@@ -1,8 +1,8 @@
 {
-  "name": "a-fate-zero-page",
+  "name": "gatsby-pewpewpew-starter",
   "version": "0.0.1",
   "private": true,
-  "description": "Somewhere where I post Fate/Zero related things",
+  "description": "A TypeScript + MDX + SCSS starter for GatsbyJS",
   "author": "Komefumi",
   "keywords": [
     "gatsby"

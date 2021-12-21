@@ -1,1 +1,1 @@
-export const SITE_TITLE = "A Fate Zero Page";
+export const SITE_TITLE = "PewPewPew Starter";
