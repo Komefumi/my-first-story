@@ -1,9 +1,5 @@
-# A New Model Of Biological Education And Research
+# A Fate Zero Page
 
-Welcome, this proposes a new way of biological education and research that is for the most part in contradiction to it's contemporaries.
+This is a page... where I post whatever I want that relates to Fate/Zero. It's really a site, but I'd like to call it a page.
 
-This project and it's generated site will be updated as necessary to reflect the development of the proposition.
-
-In future it may be formalized with a committe established, and in future there may be a creation of projects that implement and purport the ideas developed here
-
-[Live Site](https://open-biology-university.github.io/a-new-model-of-biological-education-and-research)
+Everything is intended to come under fair use, but if pointed otherwise I will make necessary changes

@@ -1,11 +1,11 @@
 const path = require("path");
 
 module.exports = {
-  pathPrefix: "/a-new-model-of-biological-education-and-research",
+  pathPrefix: "/a-fate-zero-page",
   siteMetadata: {
     siteUrl:
-      "https://open-biology-university.github.io/a-new-model-of-biological-education-and-research",
-    title: "A New Model Of Biological Education And Research",
+    "https://komefumi.github.io/a-fate-zero-page",
+    title: "A Fate/Zero Page",
   },
   plugins: [
     {

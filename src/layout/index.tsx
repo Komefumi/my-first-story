@@ -5,17 +5,7 @@ import { MDXProvider } from "@mdx-js/react";
 import { Link } from "gatsby";
 import { SITE_TITLE } from "@/config/site";
 
-const LINKS = [
-  ["Rationale", "/"],
-  ["Bioinformatics", "/bioinformatics"],
-  ["Reformed Biotechnology", "/reformed-biotechnology"],
-  [
-    "(Free and) Open Source in Bio",
-    "/free-and-open-source-bio-edu-and-research",
-  ],
-  ["Certification", "/certifications"],
-  ["Methods for Funding", "/methods-for-funding"],
-];
+const LINKS = [];
 
 interface WrapperProps {
   children: ReactNode;
@@ -35,14 +25,6 @@ const Layout = ({ children }: WrapperProps) => {
           <div className="title-section">
             <span className="site-title">
               <Link to="/">Home</Link>
-            </span>
-            <span className="obu-title">
-              <a
-                href="https://github.com/Open-Biology-University"
-                target="_blank"
-              >
-                Open Biology University
-              </a>
             </span>
           </div>
           <ul>
